@@ -1,1 +1,222 @@
 # markt12
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Markt 12 | Kiosk & DHL Paketshop Köln</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+background:#f7f7f7;
+color:#222;
+line-height:1.6;
+}
+
+.hero{
+height:100vh;
+background:linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)),
+url("https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=1600");
+background-size:cover;
+background-position:center;
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+color:white;
+padding:20px;
+}
+
+.hero-content h1{
+font-size:4rem;
+margin-bottom:15px;
+}
+
+.hero-content p{
+font-size:1.3rem;
+margin-bottom:25px;
+}
+
+.btn{
+display:inline-block;
+padding:15px 30px;
+background:#d40511;
+color:white;
+text-decoration:none;
+border-radius:10px;
+font-weight:bold;
+transition:.3s;
+}
+
+.btn:hover{
+transform:translateY(-3px);
+}
+
+section{
+max-width:1200px;
+margin:auto;
+padding:80px 20px;
+}
+
+h2{
+text-align:center;
+font-size:2.3rem;
+margin-bottom:40px;
+}
+
+.cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+}
+
+.card{
+background:white;
+padding:30px;
+border-radius:15px;
+box-shadow:0 10px 30px rgba(0,0,0,.08);
+text-align:center;
+}
+
+.gallery{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+gap:20px;
+}
+
+.gallery img{
+width:100%;
+border-radius:15px;
+height:300px;
+object-fit:cover;
+}
+
+.hours{
+background:white;
+padding:30px;
+border-radius:15px;
+box-shadow:0 10px 30px rgba(0,0,0,.08);
+max-width:600px;
+margin:auto;
+}
+
+.hours p{
+padding:10px 0;
+border-bottom:1px solid #eee;
+}
+
+.contact{
+text-align:center;
+}
+
+.contact p{
+font-size:1.1rem;
+margin:10px 0;
+}
+
+footer{
+background:#111;
+color:white;
+text-align:center;
+padding:30px;
+margin-top:50px;
+}
+
+@media(max-width:768px){
+
+.hero-content h1{
+font-size:2.5rem;
+}
+
+.hero-content p{
+font-size:1rem;
+}
+
+}
+</style>
+
+</head>
+<body>
+
+<section class="hero">
+<div class="hero-content">
+<h1>Markt 12</h1>
+<p>Kiosk & DHL Paketshop in Köln-Chorweiler</p>
+<a href="tel:01631441252" class="btn">Jetzt anrufen</a>
+</div>
+</section>
+
+<section>
+<h2>Unsere Leistungen</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>📦 DHL Paketservice</h3>
+<p>Paketannahme und Versand direkt vor Ort.</p>
+</div>
+
+<div class="card">
+<h3>🥤 Getränke</h3>
+<p>Große Auswahl an kalten Getränken.</p>
+</div>
+
+<div class="card">
+<h3>🍫 Snacks & Süßwaren</h3>
+<p>Für den kleinen Hunger zwischendurch.</p>
+</div>
+
+<div class="card">
+<h3>🍦 Eis & Tabakwaren</h3>
+<p>Alles bequem an einem Ort.</p>
+</div>
+
+</div>
+</section>
+
+<section>
+
+<h2>Öffnungszeiten</h2>
+
+<div class="hours">
+<p>Montag: 08:00 – 22:00</p>
+<p>Dienstag: 08:00 – 22:00</p>
+<p>Mittwoch: 08:00 – 22:00</p>
+<p>Donnerstag: 08:00 – 22:00</p>
+<p>Freitag: 08:00 – 22:00</p>
+<p>Samstag: 10:00 – 22:00</p>
+<p>Sonntag: 10:00 – 22:00</p>
+</div>
+
+</section>
+
+<section class="contact">
+
+<h2>Kontakt</h2>
+
+<p>📍 Schaaffhausenstraße 2a, 50769 Köln</p>
+
+<p>📞 0163 1441252</p>
+
+<p>
+<a class="btn" href="https://maps.google.com">
+Route starten
+</a>
+</p>
+
+</section>
+
+<footer>
+<p>© Markt 12 – Kiosk & DHL Paketshop</p>
+</footer>
+
+</body>
+</html>
